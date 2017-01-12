@@ -1,0 +1,17 @@
+{
+  "name": "slyguy-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Okonkwo Sylvester <theslyguy@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "semantic-ui": "^2.2.7"
+  }
+}
