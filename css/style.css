@@ -38,16 +38,32 @@ main {
   .banner #content {
     margin: 0 auto;
     width: 60%;
-    padding-top: 120px; }
+    padding-top: 120px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 3px 2px 2px #000; }
     .banner #content h1 {
-      color: red;
-      text-shadow: 2px 2px 2px #000, 1px 1px 1px #fff;
+      color: #9e0f0f;
+      text-shadow: 3px 2px 2px #000;
       text-transform: uppercase; }
     .banner #content h3 {
-      color: #fff;
       font-size: 23px;
-      font-weight: 300;
+      font-weight: 300; }
+      .banner #content h3 span {
+        background-color: #9e0f0f;
+        text-transform: uppercase; }
+    .banner #content h4 {
+      font-size: 16px;
+      font-weight: 200;
+      font-family: Lucida cursive;
+      font-style: italic;
+      margin-top: 2px;
       text-align: center; }
+      .banner #content h4 span {
+        text-decoration: underline;
+        -moz-text-decoration-color: #9e0f0f;
+        /* Code for Firefox */
+        text-decoration-color: #9e0f0f; }
 
 .section {
   padding-bottom: 30px;

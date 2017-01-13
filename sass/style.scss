@@ -110,7 +110,7 @@
 
 $light-blue: #c7d6de;
 $dark-blue: #053e5c;
-
+$blood-red: #9e0f0f;
 .light {
   font-weight: 300 !important;
 }
@@ -165,16 +165,34 @@ main{
     margin: 0 auto;
     width: 60%;
     padding-top: 120px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 3px 2px 2px #000;
     h1{
-      color: red;
-      text-shadow: 2px 2px 2px #000, 1px 1px 1px #fff;
+      color: $blood-red;
+      text-shadow: 3px 2px 2px #000;
       text-transform: uppercase;
     }
     h3{
-      color: #fff;
       font-size: 23px;
       font-weight: 300;
+      span{
+        background-color: $blood-red;
+        text-transform: uppercase;
+      }
+    }
+    h4{
+      font-size: 16px;
+      font-weight: 200;
+      font-family: Lucida cursive;
+      font-style: italic;
+      margin-top: 2px;
       text-align: center;
+      span{
+        text-decoration: underline;
+        -moz-text-decoration-color: $blood-red; /* Code for Firefox */
+        text-decoration-color: $blood-red;
+      }
     }
   }
 }
