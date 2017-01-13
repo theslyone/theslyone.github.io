@@ -198,7 +198,7 @@ main{
       margin-bottom: 0px;
       li {
         line-height: 200%;
-        list-style-type: disc;        
+        list-style-type: disc;
         li {
           color: rgb(119, 119, 119);
           font-size: 13px;
@@ -233,7 +233,7 @@ main{
   }
 }
 
-#education .ui.container, #awards .ui.container{
+#portfolio .ui.container, #education .ui.container, #awards .ui.container{
   max-width: 90% !important;
 }
 

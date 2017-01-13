@@ -90,7 +90,7 @@ main {
       font-size: 85%;
       color: #999; }
 
-#education .ui.container, #awards .ui.container {
+#portfolio .ui.container, #education .ui.container, #awards .ui.container {
   max-width: 90% !important; }
 
 #contact #contact-links div {

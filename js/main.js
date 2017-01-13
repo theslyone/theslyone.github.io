@@ -8,4 +8,5 @@ $(document).ready(function(){
   });
   //$('.ui.sidebar').sidebar('toggle');
   $('.ui.sidebar').sidebar({ transition: 'overlay' }).sidebar('attach events', '.launch.sidebar');
+  //$('#portfolio .cards .image').reveal({on: 'hover'});
 });
