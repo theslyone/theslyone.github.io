@@ -297,7 +297,27 @@ main{
 	}
 }
 @media (max-width: 992px) {
-	main {
+  .banner{
+    #content{
+      width: 80%;
+      padding-top: 120px;
+      text-align: left;
+      h1{
+        font-size: 25px;
+      }
+      h3{
+        padding: 0;
+        font-size: 16px;
+        font-weight: 300;
+      }
+      h4{
+        font-size: 14px;
+        font-weight: 200;
+        margin-top: 1px;
+      }
+    }
+  }
+  main {
 		padding-left: 0px;
 	}
   #profile{
