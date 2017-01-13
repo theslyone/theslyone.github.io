@@ -99,9 +99,11 @@ main {
     padding-bottom: 30px;
     width: 100%; }
 
-  #sidebar a {
-    padding: 10px;
-    font-size: 12px; }
+  #sidebar {
+    padding-top: 46px; }
+    #sidebar a {
+      padding: 10px;
+      font-size: 12px; }
 
   nav {
     background: #fff;

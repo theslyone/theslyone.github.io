@@ -221,7 +221,6 @@ main{
   }
 }
 
-
 @media (min-width: 1200px) {
 	#experience .ui.container {
 		width: 860px
@@ -248,10 +247,13 @@ main{
     padding-bottom: 30px;
     width: 100%;
   }
-	#sidebar a {
-	  padding: 10px;
-    font-size: 12px;
-	}
+	#sidebar{
+    padding-top: 46px;
+    a {
+  	  padding: 10px;
+      font-size: 12px;
+  	}
+  }
 	nav {
 		background: #fff;
 		height: 64px;
