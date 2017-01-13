@@ -35,6 +35,19 @@ main {
 .banner {
   background: #0E1619 url(../img/header.jpg) no-repeat center center/cover;
   height: 100vh; }
+  .banner #content {
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 120px; }
+    .banner #content h1 {
+      color: red;
+      text-shadow: 2px 2px 2px #000, 1px 1px 1px #fff;
+      text-transform: uppercase; }
+    .banner #content h3 {
+      color: #fff;
+      font-size: 23px;
+      font-weight: 300;
+      text-align: center; }
 
 .section {
   padding-bottom: 30px;

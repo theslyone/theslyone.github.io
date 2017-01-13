@@ -6,7 +6,5 @@ $(document).ready(function(){
       $elem.css('border-color', $color);
     }
   });
-  //$('.ui.sidebar').sidebar('toggle');
   $('.ui.sidebar').sidebar({ transition: 'overlay' }).sidebar('attach events', '.launch.sidebar');
-  //$('#portfolio .cards .image').reveal({on: 'hover'});
 });
